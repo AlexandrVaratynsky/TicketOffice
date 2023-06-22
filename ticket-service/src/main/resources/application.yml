@@ -1,0 +1,18 @@
+server:
+  port: 0
+
+spring:
+  application:
+    name: ticket-service
+  data:
+    mongodb:
+      database: ticketoffice
+      port: 27017
+      host: localhost
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8800/eureka

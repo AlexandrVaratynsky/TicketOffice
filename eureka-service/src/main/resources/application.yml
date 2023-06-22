@@ -1,0 +1,19 @@
+server:
+  port: 8800
+
+spring:
+  application:
+    name: discovery-service
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8800/eureka
+
+logging:
+  level:
+    com.netflix.discovery: off
+    com.netflix.eureka: off
+
