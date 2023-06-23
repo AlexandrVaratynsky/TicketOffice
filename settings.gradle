@@ -1,4 +1,5 @@
 rootProject.name = 'ticketoffice'
 include 'eureka-service'
 include 'ticket-service'
+include 'api-gateway'
 
